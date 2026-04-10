@@ -1,0 +1,22 @@
+{
+  "source": {
+    "path": "upstream",
+    "channel": "github-head",
+    "defaultBranch": "master",
+    "version": "5.0.7",
+    "rev": "c9cae77a51654a81bab1adf93a74821b6be4bf35"
+  },
+  "package": {
+    "repo": "ultimate-bug-scanner",
+    "version": "5.0.7"
+  },
+  "binary": {
+    "name": "ubs",
+    "path": "ubs"
+  },
+  "meta": {
+    "description": "Unified bug scanner meta-runner across multiple programming languages",
+    "homepage": "https://github.com/Dicklesworthstone/ultimate_bug_scanner",
+    "licenseSpdx": "MIT"
+  }
+}

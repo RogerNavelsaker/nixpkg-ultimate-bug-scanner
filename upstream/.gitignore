@@ -1,0 +1,95 @@
+# Test files
+test/
+*.test.js
+*.test.txt
+
+# Backup files
+*.backup
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+.bv/
+
+# Beads ephemeral files
+.beads/last-touched
+.beads/.bv.lock
+
+# Python environments
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Rust build artifacts
+**/target/
+**/*.rs.bk
+Cargo.lock
+
+# Test artifacts
+test-suite/artifacts/
+
+# Compiled test artifacts
+a.out
+
+# Bead dump exports (dated ephemeral reports)
+*_bead_dump_*.txt
+
+# Beads history snapshots
+.beads/.br_history/
+
+# Profiling data
+perf.data
+perf.data.*
+
+# Local scratch DBs
+storage.sqlite3
+storage.sqlite3-*
+*.sqlite3.bak
+
+# Prompt dump files (agent-generated diagnostic exports)
+prompt_dump*.md
+modules/prompt_dump*.md
+
+# macOS resource fork files
+._*
+
+# bv graph output
+--graph-format.svg
+
+# ACFS ephemeral patterns (auto-generated agent artifacts)
+core
+core.*
+cline.mcp.json
+codex.mcp.json
+cursor.mcp.json
+gemini.mcp.json
+opencode.json
+windsurf.mcp.json
+*.mcp.json.*.bak
+.opencode.json.*.bak
+.windsurf.mcp.json.*.bak
+.agent-mail-project-id
+.agent-mail.yaml
+*.sqlite3.corrupt*
+storage.sqlite3.corrupt-*
+storage.sqlite3-shm.corrupt-*
+storage.sqlite3-wal.corrupt-*
+.beads/*.corrupt*
+.beads/*.pre_repair_*
+.beads/*.repair_candidate_*
+.beads/*.bak-corrupt
+tmp-rel-*
