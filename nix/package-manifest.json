@@ -1,10 +1,13 @@
 {
   "source": {
-    "path": "upstream",
+    "type": "github",
+    "owner": "Dicklesworthstone",
+    "repo": "ultimate_bug_scanner",
     "channel": "github-head",
     "defaultBranch": "master",
     "version": "5.0.7",
-    "rev": "c9cae77a51654a81bab1adf93a74821b6be4bf35"
+    "rev": "c9cae77a51654a81bab1adf93a74821b6be4bf35",
+    "hash": "sha256-C9QjSFijxiCaCAQ0Yg5mgN9KFlLS42n0Cy0sKPKaIM0="
   },
   "package": {
     "repo": "ultimate-bug-scanner",

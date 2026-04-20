@@ -2,6 +2,7 @@
   bash,
   coreutils,
   curl,
+  fetchFromGitHub,
   findutils,
   gawk,
   git,
@@ -18,9 +19,11 @@
 
 let
   manifest = builtins.fromJSON (builtins.readFile ./package-manifest.json);
-  sourceRoot = builtins.path {
-    path = ../upstream;
-    name = "source";
+  sourceRoot = fetchFromGitHub {
+    owner = manifest.source.owner;
+    repo = manifest.source.repo;
+    rev = manifest.source.rev;
+    hash = manifest.source.hash;
   };
   licenseMap = {
     "MIT" = lib.licenses.mit;
