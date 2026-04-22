@@ -5,13 +5,13 @@
     "repo": "ultimate_bug_scanner",
     "channel": "github-head",
     "defaultBranch": "master",
-    "version": "5.0.7",
-    "rev": "c9cae77a51654a81bab1adf93a74821b6be4bf35",
-    "hash": "sha256-C9QjSFijxiCaCAQ0Yg5mgN9KFlLS42n0Cy0sKPKaIM0="
+    "version": "0.0.0",
+    "rev": "6d1fb852bbbc5c3b78a2f1aa2cd2e3bee47d9f7c",
+    "hash": "sha256-6jtLU8iyjF51kkgRnlpBanO2Q2W0CvoCIgNwl9WNYh8="
   },
   "package": {
     "repo": "ultimate-bug-scanner",
-    "version": "5.0.7"
+    "version": "0.0.0"
   },
   "binary": {
     "name": "ubs",
