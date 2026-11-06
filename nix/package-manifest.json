@@ -6,8 +6,8 @@
     "channel": "github-head",
     "defaultBranch": "master",
     "version": "0.0.0",
-    "rev": "7a8f300043090e2e9d14c7e7addeb599163160a0",
-    "hash": "sha256-w+me9P7dGQFYoh2UtMiPDjmBsueqsR1m8G9KFBi6Yus="
+    "rev": "3cda967849a8f3b96b6c17bb6a15f6d16c5ce246",
+    "hash": "sha256-J9x4wJOlrXFgdQvYAsBOcP6XVtMLxxgirziJrwN8TZo="
   },
   "package": {
     "repo": "ultimate-bug-scanner",
