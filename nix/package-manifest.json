@@ -4,10 +4,10 @@
     "owner": "Dicklesworthstone",
     "repo": "ultimate_bug_scanner",
     "channel": "github-head",
-    "defaultBranch": "master",
+    "defaultBranch": "main",
     "version": "0.0.0",
-    "rev": "5d2d70b6fb48731e0ddb1fd3ba1ba4567133d623",
-    "hash": "sha256-R/npVvBJXrzq8HFJfDasIdp8KqA9P0wOATEjwAss8kM="
+    "rev": "6d184ad3b5d58005a3073455860da1fb5e9b70f7",
+    "hash": "sha256-mDfdFO9y1byML+8mZ928ZfDAsKjPm34+M1BZ2yuhhfo="
   },
   "package": {
     "repo": "ultimate-bug-scanner",
